@@ -1,7 +1,7 @@
 #! /bin/bash
 
 yum clean all
-yum -y update
+#yum -y update
 yum -y install httpd
 
 curl -O http://www.scriptcha.com/scriptcha.zip
@@ -26,7 +26,7 @@ systemctl enable httpd
 yum -y install epel-release
 yum-config-manager --enable remi-php72
 
-yum -y update
+#yum -y update
 yum -y install php
 yum -y install mod_ruid2
 
