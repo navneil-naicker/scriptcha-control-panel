@@ -1,11 +1,10 @@
 #! /bin/bash
 
+cp -r ./scriptcha/selinux/config /etc/selinux/config
+
 yum clean all
 #yum -y update
 yum -y install httpd
-
-curl -O http://www.scriptcha.com/scriptcha.zip
-unzip scriptcha.zip
 
 firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --permanent --add-port=443/tcp
