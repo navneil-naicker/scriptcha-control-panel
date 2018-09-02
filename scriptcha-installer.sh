@@ -32,6 +32,7 @@ yum-config-manager --enable remi-php72
 yum -y install php
 yum -y install mod_ruid2
 
+mv ./scriptcha/html/www/index.html /var/www/html/index.html
 mv ./scriptcha/src/* /usr/local/
 chown -R $USER:$USER /usr/local/scriptcha/web
 
