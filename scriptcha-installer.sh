@@ -51,6 +51,15 @@ cp -r ./scriptcha/sudoers.d/scriptcha /etc/sudoers.d/scriptcha
 cp -r ./scriptcha/conf/scriptcha.conf /etc/httpd/conf.d/scriptcha.conf
 cp -r ./scriptcha/conf/php.ini /etc/php.ini
 
+sudo chmod 755 /usr/local/scriptcha/web/bin/login.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/settings.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/v-account.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/v-add-website.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/v-delete-website.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/v-GetUsername.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/vhost-exists.sh
+sudo chmod 755 /usr/local/scriptcha/web/bin/v-login.sh
+
 echo "Restarting Apache";
 apachectl restart
 
