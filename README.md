@@ -6,4 +6,4 @@
 
  ***2. Isse the following command in terminal. This will start the*** installation of ScriptCha Control Panel
 
-     sh scriptcha-installer.sh`
+     sh scriptcha-installer.sh
