@@ -46,8 +46,7 @@ mv ./scriptcha/src/* /usr/local/
 chown -R $USER:$USER /usr/local/scriptcha/web
 
 cp -r ./scriptcha/conf/userdir.conf /etc/httpd/conf.d/userdir.conf
-cp -r ./scriptcha/www/index.html /var/www/html/index.html
-cp -r ./scriptcha/sudoers.d/scriptcha /etc/sudoers.d/scriptcha
+cp -r ./scriptcha/sudoers.d/admin /etc/sudoers.d/admin
 cp -r ./scriptcha/conf/scriptcha.conf /etc/httpd/conf.d/scriptcha.conf
 cp -r ./scriptcha/conf/php.ini /etc/php.ini
 
