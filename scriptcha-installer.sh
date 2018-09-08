@@ -60,7 +60,7 @@ chmod 755 /usr/local/scriptcha/web/bin/v-add-website.sh
 chmod 755 /usr/local/scriptcha/web/bin/v-delete-website.sh
 chmod 755 /usr/local/scriptcha/web/bin/v-GetUsername.sh
 chmod 755 /usr/local/scriptcha/web/bin/vhost-exists.sh
-chmod 755 /usr/local/scriptcha/web/bin/v-login.sh
+chmod 440 /etc/sudoers.d/admin
 
 echo "Restarting Apache";
 apachectl restart
