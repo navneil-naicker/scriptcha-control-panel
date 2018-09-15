@@ -4,6 +4,6 @@
 
      curl -LJO https://raw.githubusercontent.com/navneil-naicker/scriptcha-control-panel/master/scriptcha-installer.sh
 
- ***2. Isse the following command in terminal. This will start the*** installation of ScriptCha Control Panel
+ ***2. Issue the following command in terminal. This will start the*** installation of ScriptCha Control Panel
 
      sh scriptcha-installer.sh
