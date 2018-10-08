@@ -57,13 +57,13 @@ cp -r ./scriptcha/sudoers.d/admin /etc/sudoers.d/admin
 cp -r ./scriptcha/conf/scriptcha.conf /etc/httpd/conf.d/scriptcha.conf
 cp -r ./scriptcha/conf/php.ini /etc/php.ini
 
-chmod 755 /usr/local/scriptcha/web/bin/login.sh
-chmod 755 /usr/local/scriptcha/web/bin/settings.sh
-chmod 755 /usr/local/scriptcha/web/bin/v-account.sh
-chmod 755 /usr/local/scriptcha/web/bin/v-add-website.sh
-chmod 755 /usr/local/scriptcha/web/bin/v-delete-website.sh
-chmod 755 /usr/local/scriptcha/web/bin/v-GetUsername.sh
-chmod 755 /usr/local/scriptcha/web/bin/vhost-exists.sh
+chmod 755 /usr/local/scriptcha/bin/login.sh
+chmod 755 /usr/local/scriptcha/bin/settings.sh
+chmod 755 /usr/local/scriptcha/bin/v-account.sh
+chmod 755 /usr/local/scriptcha/bin/v-add-website.sh
+chmod 755 /usr/local/scriptcha/bin/v-delete-website.sh
+chmod 755 /usr/local/scriptcha/bin/v-GetUsername.sh
+chmod 755 /usr/local/scriptcha/bin/vhost-exists.sh
 chmod 440 /etc/sudoers.d/admin
 
 echo "Restarting Apache";
