@@ -1,5 +1,7 @@
 #! /bin/bash
 
+yum remove PackageKit -y
+
 echo "Checking status of SELinux";
 SELINUXSTATUS=$(getenforce);
 if [ "$SELINUXSTATUS" != "Disabled" ]; then
@@ -8,7 +10,7 @@ if [ "$SELINUXSTATUS" != "Disabled" ]; then
 	exit;
 fi;
 
-yum remove PackageKit -y
+
 
 echo "Just downloading few things before we start installing Scriptcha Control Panel.";
 curl -O -s 'http://www.scriptcha.com/scriptcha.zip' > /dev/null
