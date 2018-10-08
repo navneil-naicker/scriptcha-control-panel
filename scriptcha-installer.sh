@@ -8,7 +8,7 @@ if [ "$SELINUXSTATUS" != "Disabled" ]; then
 	exit;
 fi;
 
-yum remove PackageKit
+yum remove PackageKit -y
 
 echo "Just downloading few things before we start installing Scriptcha Control Panel.";
 curl -O -s 'http://www.scriptcha.com/scriptcha.zip' > /dev/null
