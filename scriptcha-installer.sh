@@ -59,10 +59,9 @@ cp -r ./scriptcha/conf/php.ini /etc/php.ini
 
 chmod 755 /usr/local/scriptcha/bin/login.sh
 chmod 755 /usr/local/scriptcha/bin/settings.sh
-chmod 755 /usr/local/scriptcha/bin/v-account.sh
-chmod 755 /usr/local/scriptcha/bin/v-add-website.sh
-chmod 755 /usr/local/scriptcha/bin/v-delete-website.sh
-chmod 755 /usr/local/scriptcha/bin/v-GetUsername.sh
+chmod 755 /usr/local/scriptcha/bin/account.sh
+chmod 755 /usr/local/scriptcha/bin/add-website.sh
+chmod 755 /usr/local/scriptcha/bin/delete-website.sh
 chmod 755 /usr/local/scriptcha/bin/vhost-exists.sh
 chmod 440 /etc/sudoers.d/admin
 chown -R admin:admin /usr/local/scriptcha/bin/storage
